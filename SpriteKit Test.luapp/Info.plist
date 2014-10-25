@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Program Bindings Libs</key>
+	<array>
+		<dict>
+			<key>LibBookmark</key>
+			<data>
+			Ym9va0AEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAPAMAAAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAGpl
+			YW4tbHVjBwAAAAEBAABMaWJyYXJ5ABMAAAABAQAAQXBwbGljYXRp
+			b24gU3VwcG9ydAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
+			CAAAAAEBAABpcGhvbmVvcxcAAAABAQAAaU9TLTguMC1TREsubHVh
+			YmluZGluZ3MAHAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAUAAAAGwA
+			AAB8AAAACAAAAAQDAAB8ZAIAAAAAAAgAAAAEAwAAw3tOAAAAAAAI
+			AAAABAMAADh8TgAAAAAACAAAAAQDAAA+fE4AAAAAAAgAAAAEAwAA
+			WmJUAAAAAAAIAAAABAMAAFxiVAAAAAAACAAAAAQDAADkC5EAAAAA
+			ABwAAAABBgAAwAAAANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgA
+			AAAABAAAQbnUFKQAAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAA
+			AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPcBAAAMAAAA
+			AQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAAAGzgMBAAAIAAAAAAQA
+			AEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTNDMjktOUJB
+			OS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAA
+			AAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMDAAAAAwAA
+			8gAAAAECAABmYmJhNWJmNzlhZTdiNTFmYjk3ZTRhYjdlNmYyNzQy
+			OTAyYWIzYTFjOzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+			MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7
+			MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMDkxMGJlNDsvdXNl
+			cnMvamVhbi1sdWMvbGlicmFyeS9hcHBsaWNhdGlvbiBzdXBwb3J0
+			L2NvbS5jZWxlZGV2LmNvZGVmbG93L2lwaG9uZW9zL2lvcy04LjAt
+			c2RrLmx1YWJpbmRpbmdzAAAAzAAAAP7///8BAAAAAAAAABAAAAAE
+			EAAAnAAAAAAAAAAFEAAAMAEAAAAAAAAQEAAAZAEAAAAAAABAEAAA
+			VAEAAAAAAAACIAAAIAIAAAAAAAAQIAAAoAEAAAAAAAARIAAA1AEA
+			AAAAAAASIAAAtAEAAAAAAAATIAAAxAEAAAAAAAAgIAAAAAIAAAAA
+			AAAwIAAALAIAAAAAAAABwAAAhAEAAAAAAAARwAAAFAAAAAAAAAAS
+			wAAAlAEAAAAAAAAQ0AAANAIAAAAAAACA8AAAQAIAAAAAAAA=
+			</data>
+			<key>LibDirPath</key>
+			<string>iphoneos</string>
+			<key>LibId</key>
+			<string>apple_sdk_iphoneos8.0</string>
+			<key>LibName</key>
+			<string>iOS</string>
+			<key>LibUrl</key>
+			<string>file:///Users/jean-luc/Library/Application%20Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/</string>
+		</dict>
+	</array>
+	<key>Program Display Info</key>
+	<dict>
+		<key>LuaAppDocument remote Lua service</key>
+		<string>SpriteKitTest - SKGame (iPad Celedev 1)</string>
+		<key>LuaAppDocument-associatedXodeProject</key>
+		<dict>
+			<key>platform</key>
+			<string>iphoneos</string>
+			<key>project</key>
+			<string>SpriteKitTest.xcodeproj</string>
+			<key>target</key>
+			<string>SpriteKitTest</string>
+		</dict>
+		<key>LuaAppWindow edited source path</key>
+		<string>Spaceship</string>
+		<key>LuaAppWindow frame</key>
+		<string>451 468 1379 760 0 0 2560 1418 </string>
+	</dict>
+	<key>Program Format Version</key>
+	<string>0.9</string>
+	<key>Program Groups Order</key>
+	<dict>
+		<key></key>
+		<array>
+			<string>CreateGame</string>
+			<string>GameScene</string>
+			<string>Spearman</string>
+			<string>Spaceship</string>
+		</array>
+	</dict>
+	<key>Program Source Files Info</key>
+	<dict>
+		<key></key>
+		<dict>
+			<key>RootGroupId</key>
+			<string>SourceFile</string>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ListController Group IsExpanded</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>CreateGame</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<false/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>CreateGame</string>
+			<key>SourceItemChangeTime</key>
+			<real>415040997.97592998</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>0</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>309</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>GameScene</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<false/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>GameScene</string>
+			<key>SourceItemChangeTime</key>
+			<real>422370643.25501299</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>2244</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>1224</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>Spaceship</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>433372905.69943303</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>347</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>394</real>
+			</dict>
+			<key>SourceItemOriginalFilePath</key>
+			<string>Spaceship.png</string>
+			<key>SourceItemUrlBookmark</key>
+			<data>
+			Ym9va1AEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAATAMAAAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAGpl
+			YW4tbHVjDQAAAAEBAABEZXZlbG9wcGVtZW50AAAAEAAAAAEBAABD
+			ZWxlZGV2IENvZGVGbG93GwAAAAEBAABDZWxlZGV2IFNhbXBsZSBB
+			cHBsaWNhdGlvbnMADgAAAAEBAABTcHJpdGVLaXQgVGVzdAAADQAA
+			AAEBAABTcGFjZXNoaXAucG5nAAAAHAAAAAEGAAAEAAAAFAAAACQA
+			AAA8AAAAVAAAAHgAAACQAAAACAAAAAQDAAB8ZAIAAAAAAAgAAAAE
+			AwAAw3tOAAAAAAAIAAAABAMAADWDTgAAAAAACAAAAAQDAABSU08A
+			AAAAAAgAAAAEAwAAbrxPAAAAAAAIAAAABAMAAFq9TwAAAAAACAAA
+			AAQDAAClK5IAAAAAABwAAAABBgAAzAAAANwAAADsAAAA/AAAAAwB
+			AAAcAQAALAEAAAgAAAAABAAAQbi/i68AAAAYAAAAAQIAAAEAAAAA
+			AAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAA
+			AwMAAPcBAAAMAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAAAG
+			zgMBAAAIAAAAAAQAAEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03
+			RjU5LTNDMjktOUJBOS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAAB
+			AAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAA
+			BAAAAAMDAAAAAwAA+AAAAAECAAA4Y2QzOWIzYzUwNjYyMTkxMzc3
+			ZWUzMGQ2N2RmMzk3YzA1N2JlOGMxOzAwMDAwMDAwOzAwMDAwMDAw
+			OzAwMDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94
+			LnJlYWQtd3JpdGU7MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAw
+			MDkyMmJhNTsvdXNlcnMvamVhbi1sdWMvZGV2ZWxvcHBlbWVudC9j
+			ZWxlZGV2IGNvZGVmbG93L2NlbGVkZXYgc2FtcGxlIGFwcGxpY2F0
+			aW9ucy9zcHJpdGVraXQgdGVzdC9zcGFjZXNoaXAucG5nAMwAAAD+
+			////AQAAAAAAAAAQAAAABBAAAKgAAAAAAAAABRAAADwBAAAAAAAA
+			EBAAAHABAAAAAAAAQBAAAGABAAAAAAAAAiAAACwCAAAAAAAAECAA
+			AKwBAAAAAAAAESAAAOABAAAAAAAAEiAAAMABAAAAAAAAEyAAANAB
+			AAAAAAAAICAAAAwCAAAAAAAAMCAAADgCAAAAAAAAAcAAAJABAAAA
+			AAAAEcAAABQAAAAAAAAAEsAAAKABAAAAAAAAENAAAEACAAAAAAAA
+			gPAAAEwCAAAAAAAA
+			</data>
+		</dict>
+		<key>Spearman</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<true/>
+			<key>Source File Is Start Item</key>
+			<false/>
+			<key>Source File Name</key>
+			<string>Spearman</string>
+			<key>SourceItemChangeTime</key>
+			<real>431625495.74865699</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>SrcEditor Selected Length</key>
+				<integer>0</integer>
+				<key>SrcEditor Selected Location</key>
+				<integer>464</integer>
+				<key>SrcEditor Visible Length</key>
+				<integer>1566</integer>
+				<key>SrcEditor Visible Location</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
