@@ -33,19 +33,15 @@ end
 function GameScene:configureScene ()
     self.backgroundColor = objc.UIColor:colorWithRed_green_blue_alpha(0.15, 0.15, 0.3, 1.0)
     
-    getResource ('Spaceship', 'png', self, "spaceshipImage")
+    getResource ('Spaceship', 'png', self, function (self, resourceImage)
+                                               self.spaceshipTexture = SKTexture:textureWithImage(resourceImage) 
+                                               
+                                               self:enumerateChildNodesWithName_usingBlock("spaceship",
+                                                                                           function (node) 
+                                                                                               node.texture = self.spaceshipTexture 
+                                                                                           end)
+                                           end)
 end
-
-GameScene:declareSetters { spaceshipImage = function (self, resourceImage)
-                                                self.spaceshipTexture = SKTexture:textureWithImage(resourceImage) 
-                                                
-                                                self:enumerateChildNodesWithName_usingBlock("spaceship",
-                                                                                            function (node) 
-                                                                                                node.texture = self.spaceshipTexture 
-                                                                                            end)
-                                            end
-                         }
-
 
 function GameScene:touchesBegan_withEvent(touches, event)
     -- Called when a touch begins
