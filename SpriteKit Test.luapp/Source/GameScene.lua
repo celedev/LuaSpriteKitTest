@@ -2,10 +2,10 @@
 local SKScene = objc.SKScene
 local SKAction = objc.SKAction
 local SKTexture = objc.SKTexture
+local CGRect = struct.CGRect
 
 local Spearman = require "Spearman"
 
-local CgGeometry = require "CoreGraphics.CGGeometry"
 local CgPath = require "CoreGraphics.CGPath"
 
 local M_PI = math.pi
@@ -21,8 +21,7 @@ function GameScene:initWithSize(size)
         local labelNode = objc.SKLabelNode:labelNodeWithFontNamed("ChalkDuster")
         labelNode.text = "Hello World"
         labelNode.fontSize = 60;
-        labelNode.position = { x = CgGeometry.CGRectGetMidX(self.frame),
-                               y = CgGeometry.CGRectGetMidY(self.frame) }
+        labelNode.position = { x = self.frame:getMidX(), y = self.frame:getMidY() }
         
         self:addChild(labelNode)
     end
@@ -70,10 +69,7 @@ function GameScene:addSpaceshipAtLocation (location)
     spaceship.zPosition = spaceship.xScale * 100
     
     local radiusX, radiusY = location.x / 2, location.y / 2
-    local path = CgPath.CreateWithEllipseInRect { x = location.x- 2 * radiusX,  
-                                                  y = location.y - radiusY, 
-                                                  width = 2 * radiusX, 
-                                                  height = 2 * radiusY }
+    local path = CgPath.CreateWithEllipseInRect (CGRect (location.x- 2 * radiusX,  location.y - radiusY, 2 * radiusX, 2 * radiusY ))
     if path then
         local animation = SKAction:followPath_asOffset_orientToPath_duration (path, false, true, 0.5 * math.random(4,10))
         spaceship:runAction(SKAction:repeatActionForever(animation))

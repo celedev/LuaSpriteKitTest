@@ -6,7 +6,7 @@ It includes an example of propagation of a resource update (the spaceship image)
 
 ## Configuration required
 
-A Mac with Celedev CodeFlow version 0.97 or later.
+A Mac with Celedev CodeFlow version 0.9.9 or later.
 
 Works on iPhone or iPad, running iOS 7 or later.
 
@@ -36,9 +36,9 @@ Works on iPhone or iPad, running iOS 7 or later.
   **Most probable cause**: if you are using Xcode 5 (and thus iOS 7.1 SDK), these errors occur because the sample app is configured for the iOS 8 SDK.
 
   **⇒ Fix**: In the CodeFlow project, use the bindings library for the iOS 7.1 SDK in replacement of the one for the iOS 8 SDK
-	- download [CodeFlow bindings for iOS 7.1 SDK](https://www.celedev.com/en/support/downloads/codeflow-bindings-ios7-1-sdk.dmg), and double-click on the .luabindings library file to install it in codeFlow; 
-	- then a add the iOS 7.1 SDK library to CodeFlow project (menu `Program -> Add External Library -> iOS 7.1 SDK` or with the contextual menu on the current iOS External Lib);
-	- save the CodeFlow project. This will update the associated Xcode project that will now use the libraries for the iOS 7.1 SDK.
+	- Download [CodeFlow bindings for iOS 7.1 SDK](https://www.celedev.com/en/support/downloads/codeflow-bindings-ios7-1-sdk.dmg), and double-click on the .luabindings library file to install it in codeFlow; 
+	- If needed, select the iOS 7.1 SDK library in CodeFlow project (menu `Program -> Select SDK Library -> iOS 7.1 SDK` or using the contextual menu on the current iOS External Lib);
+	- CodeFlow will then update the associated Xcode project so that it links with the iOS 7.1 SDK bindings libraries.
 
 ## License
 
