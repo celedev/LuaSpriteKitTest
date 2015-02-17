@@ -14,19 +14,16 @@ local GameScene = class.createClass ("GameScene", SKScene)
 
 function GameScene:initWithSize(size)
     
-    self = self[SKScene]:initWithSize (size)
-    if self then
-        self:configureScene ()
-        
-        local labelNode = objc.SKLabelNode:labelNodeWithFontNamed("ChalkDuster")
-        labelNode.text = "Hello World"
-        labelNode.fontSize = 60;
-        labelNode.position = { x = self.frame:getMidX(), y = self.frame:getMidY() }
-        
-        self:addChild(labelNode)
-    end
+    self[SKScene]:initWithSize (size)
     
-    return self
+    self:configureScene ()
+    
+    local labelNode = objc.SKLabelNode:labelNodeWithFontNamed("ChalkDuster")
+    labelNode.text = "Hello World"
+    labelNode.fontSize = 60;
+    labelNode.position = { x = self.frame:getMidX(), y = self.frame:getMidY() }
+    
+    self:addChild(labelNode)
 end
 
 function GameScene:configureScene ()

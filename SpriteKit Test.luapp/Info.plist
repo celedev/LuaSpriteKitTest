@@ -13,8 +13,6 @@
 	</array>
 	<key>Program Display Info</key>
 	<dict>
-		<key>LuaAppDocument remote Lua service</key>
-		<string>SpriteKitTest - SKGame (Celedev's iPad)</string>
 		<key>LuaAppDocument-associatedXodeProject</key>
 		<dict>
 			<key>platform</key>
@@ -25,9 +23,9 @@
 			<string>SpriteKitTest</string>
 		</dict>
 		<key>LuaAppWindow edited source path</key>
-		<string>GameScene</string>
+		<string>CreateGame</string>
 		<key>LuaAppWindow frame</key>
-		<string>1039 508 1379 760 0 0 2560 1417 </string>
+		<string>40 435 1379 760 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -70,7 +68,7 @@
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>0</integer>
+				<integer>106</integer>
 				<key>SrcEditor Visible Length</key>
 				<integer>309</integer>
 				<key>SrcEditor Visible Location</key>
@@ -86,15 +84,15 @@
 			<key>Source File Name</key>
 			<string>GameScene</string>
 			<key>SourceItemChangeTime</key>
-			<real>440447094.98595601</real>
+			<real>445856076.426153</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>2541</integer>
+				<integer>662</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1462</integer>
+				<integer>1530</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>
@@ -102,7 +100,7 @@
 		<key>Spaceship</key>
 		<dict>
 			<key>SourceItemChangeTime</key>
-			<real>433372905.69943303</real>
+			<real>442865060.486808</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>ImageViewerMagnification</key>
@@ -136,8 +134,8 @@
 			AAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAAAARqcDAQAACAAAAAAE
 			AABBuCL/wAAAACQAAAABAQAAMUJCMzRCOEEtN0Y1OS0zQzI5LTlC
 			QTktMjEzQUU4NDkzODZFGAAAAAECAACBAAAAAQAIAO8XAAABAAgA
-			AAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAPkAAAABAgAANDU1
-			NGI1ZWQ0YWI0M2JhMjJiMTM3YjU5NzUyMWQ2NGRkYzM5YTI3Mjsw
+			AAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAPkAAAABAgAAZThi
+			ODVhODJiYzRiNTZkNzQ2Njk5YzkwNDhlMTBkZmY2Y2JiMGFhYjsw
 			MDAwMDAwMDswMDAwMDAwMDswMDAwMDAwMDAwMDAwMDIwO2NvbS5h
 			cHBsZS5hcHAtc2FuZGJveC5yZWFkLXdyaXRlOzAwMDAwMDAxOzAx
 			MDAwMDA4OzAwMDAwMDAwMDA5MjJiYTU7L3VzZXJzL2plYW4tbHVj
@@ -167,7 +165,7 @@
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>464</integer>
+				<integer>337</integer>
 				<key>SrcEditor Visible Length</key>
 				<integer>1566</integer>
 				<key>SrcEditor Visible Location</key>
