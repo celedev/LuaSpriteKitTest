@@ -1,943 +1,388 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1A24C52FF44E425794D09F59</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaBindingFoundation.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>23C37F01F29E49F7833DFF55</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MobileCoreServices.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/MobileCoreServices.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>3327F08D084B42CFA06A2671</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9AF808D3F154491A8ABBA895</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>428E590E748F47CEA8B0C415</key>
-		<dict>
-			<key>fileRef</key>
-			<string>23C37F01F29E49F7833DFF55</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5470E7357A3740C79F1F3CA3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaBindingUIKit.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs/libCIMLuaBindingUIKit.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>95C719A9764446D5926E168A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B52F0E24B2C46AC9BE14FFA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9AF808D3F154491A8ABBA895</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaBindingSpriteKit.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs/libCIMLuaBindingSpriteKit.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>9B52F0E24B2C46AC9BE14FFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaBindingCoreGraphics.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs/libCIMLuaBindingCoreGraphics.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>B5BEE47A7C214398B96F4274</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5470E7357A3740C79F1F3CA3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C45A54DF9954438FA4227B68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A24C52FF44E425794D09F59</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D40903F2C9A046DCA3BF6573</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLua.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLua.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>D59669EA7C1F437594F1CDF3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaDebugServerIOS.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLuaDebugServerIOS.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>F646C4171E7542E2BD0154A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D40903F2C9A046DCA3BF6573</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F720FEFA4AE14C8798C046A4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D59669EA7C1F437594F1CDF3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547B818DDA141004EB442</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FDC547CF18DDA141004EB442</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FDC547B918DDA141004EB442</string>
-				<string>FDC547BD18DDA141004EB442</string>
-				<string>FDC547C918DDA141004EB442</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SpriteKitTest</string>
-			<key>productName</key>
-			<string>MyGame1</string>
-			<key>productReference</key>
-			<string>FDC547D218DDA141004EB442</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>FDC547B918DDA141004EB442</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FDC547BA18DDA141004EB442</string>
-				<string>FDC547BB18DDA141004EB442</string>
-				<string>FDC547BC18DDA141004EB442</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FDC547BA18DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD632D18BB69BA0060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547BB18DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD632018BB69BA0060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547BC18DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD632418BB69BA0060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547BD18DDA141004EB442</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FDC547C418DDA141004EB442</string>
-				<string>FDC547C518DDA141004EB442</string>
-				<string>FDC547C618DDA141004EB442</string>
-				<string>FDC547C718DDA141004EB442</string>
-				<string>428E590E748F47CEA8B0C415</string>
-				<string>F646C4171E7542E2BD0154A1</string>
-				<string>F720FEFA4AE14C8798C046A4</string>
-				<string>B5BEE47A7C214398B96F4274</string>
-				<string>C45A54DF9954438FA4227B68</string>
-				<string>95C719A9764446D5926E168A</string>
-				<string>3327F08D084B42CFA06A2671</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FDC547C418DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD631618BB69BA0060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547C518DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD631818BB69BA0060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547C618DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD631418BB69BA0060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547C718DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD635B18BB81BD0060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547C918DDA141004EB442</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FDC547CA18DDA141004EB442</string>
-				<string>FDC547CB18DDA141004EB442</string>
-				<string>FDC547CC18DDA141004EB442</string>
-				<string>FDC547CD18DDA141004EB442</string>
-				<string>FDC547CE18DDA141004EB442</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FDC547CA18DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD636F18BBCE180060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547CB18DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD632918BB69BA0060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547CC18DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD632F18BB69BA0060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547CD18DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD632618BB69BA0060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547CE18DDA141004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDD631D18BB69BA0060324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDC547CF18DDA141004EB442</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FDC547D018DDA141004EB442</string>
-				<string>FDC547D118DDA141004EB442</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FDC547D018DDA141004EB442</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SpriteKitTest/SpriteKitTest-Prefix.pch</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<array>
-					<string></string>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/include</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>SpriteKitTest/SpriteKitTest-Info.plist</string>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<array>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos</string>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>SpriteKitTest</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FDC547D118DDA141004EB442</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SpriteKitTest/SpriteKitTest-Prefix.pch</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<array>
-					<string></string>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/include</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>SpriteKitTest/SpriteKitTest-Info.plist</string>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<array>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos</string>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>SpriteKitTest</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FDC547D218DDA141004EB442</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SpriteKitTest.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FDDD630818BB69BA0060324C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FDDD631A18BB69BA0060324C</string>
-				<string>FDDD631318BB69BA0060324C</string>
-				<string>FDDD631218BB69BA0060324C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD630918BB69BA0060324C</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>CLDV</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Celedev</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>FDDD630C18BB69BA0060324C</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>FDDD630818BB69BA0060324C</string>
-			<key>productRefGroup</key>
-			<string>FDDD631218BB69BA0060324C</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>FDC547B818DDA141004EB442</string>
-			</array>
-		</dict>
-		<key>FDDD630C18BB69BA0060324C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FDDD634418BB69BB0060324C</string>
-				<string>FDDD634518BB69BB0060324C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FDDD631218BB69BA0060324C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FDC547D218DDA141004EB442</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD631318BB69BA0060324C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FDDD635B18BB81BD0060324C</string>
-				<string>FDDD631418BB69BA0060324C</string>
-				<string>FDDD631618BB69BA0060324C</string>
-				<string>FDDD631818BB69BA0060324C</string>
-				<string>23C37F01F29E49F7833DFF55</string>
-				<string>D40903F2C9A046DCA3BF6573</string>
-				<string>D59669EA7C1F437594F1CDF3</string>
-				<string>5470E7357A3740C79F1F3CA3</string>
-				<string>1A24C52FF44E425794D09F59</string>
-				<string>9B52F0E24B2C46AC9BE14FFA</string>
-				<string>9AF808D3F154491A8ABBA895</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD631418BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FDDD631618BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FDDD631818BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FDDD631A18BB69BA0060324C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FDDD632318BB69BA0060324C</string>
-				<string>FDDD632418BB69BA0060324C</string>
-				<string>FDDD632618BB69BA0060324C</string>
-				<string>FDDD632918BB69BA0060324C</string>
-				<string>FDDD632C18BB69BA0060324C</string>
-				<string>FDDD632D18BB69BA0060324C</string>
-				<string>FDDD632F18BB69BA0060324C</string>
-				<string>FDDD636F18BBCE180060324C</string>
-				<string>FDDD631B18BB69BA0060324C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SpriteKitTest</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD631B18BB69BA0060324C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FDDD631C18BB69BA0060324C</string>
-				<string>FDDD631D18BB69BA0060324C</string>
-				<string>FDDD632018BB69BA0060324C</string>
-				<string>FDDD632218BB69BA0060324C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD631C18BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>SpriteKitTest-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD631D18BB69BA0060324C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FDDD631E18BB69BA0060324C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD631E18BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD632018BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD632218BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SpriteKitTest-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD632318BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CLDVAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD632418BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CLDVAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD632618BB69BA0060324C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FDDD632718BB69BA0060324C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD632718BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD632918BB69BA0060324C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FDDD632A18BB69BA0060324C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD632A18BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD632C18BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CLDVViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD632D18BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CLDVViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD632F18BB69BA0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDDD634418BB69BB0060324C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SPRITEKIT_TEXTURE_ATLAS_OUTPUT</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FDDD634518BB69BB0060324C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SPRITEKIT_TEXTURE_ATLAS_OUTPUT</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FDDD635B18BB81BD0060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SpriteKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/SpriteKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FDDD636F18BBCE180060324C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.skatlas</string>
-			<key>path</key>
-			<string>Spearman.atlas</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>FDDD630918BB69BA0060324C</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C56F8BA8020CCEEA3E915DD /* libCIMLuaBindingFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 795D95FD579BC8A5FEF6D45C /* libCIMLuaBindingFoundation.a */; };
+		428E590E748F47CEA8B0C415 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C37F01F29E49F7833DFF55 /* MobileCoreServices.framework */; };
+		53ABA80A1D7511FF71849A82 /* libCIMLuaBindingCoreGraphics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBAB5EACA0E96DB794441AB /* libCIMLuaBindingCoreGraphics.a */; };
+		5A4A4241ED44AD369F847056 /* libCIMLuaBindingSpriteKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB02F1943C5DB0D38262FC1 /* libCIMLuaBindingSpriteKit.a */; };
+		D5D05D6B122A04CF5DA3C040 /* libCIMLuaBindingUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E69EBBD638765B6492429F21 /* libCIMLuaBindingUIKit.a */; };
+		F646C4171E7542E2BD0154A1 /* libCIMLua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D40903F2C9A046DCA3BF6573 /* libCIMLua.a */; };
+		F720FEFA4AE14C8798C046A4 /* libCIMLuaDebugServerIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D59669EA7C1F437594F1CDF3 /* libCIMLuaDebugServerIOS.a */; };
+		FDC547BA18DDA141004EB442 /* CLDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDD632D18BB69BA0060324C /* CLDVViewController.m */; };
+		FDC547BB18DDA141004EB442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDD632018BB69BA0060324C /* main.m */; };
+		FDC547BC18DDA141004EB442 /* CLDVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDD632418BB69BA0060324C /* CLDVAppDelegate.m */; };
+		FDC547C418DDA141004EB442 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDD631618BB69BA0060324C /* CoreGraphics.framework */; };
+		FDC547C518DDA141004EB442 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDD631818BB69BA0060324C /* UIKit.framework */; };
+		FDC547C618DDA141004EB442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDD631418BB69BA0060324C /* Foundation.framework */; };
+		FDC547C718DDA141004EB442 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDD635B18BB81BD0060324C /* SpriteKit.framework */; };
+		FDC547CA18DDA141004EB442 /* Spearman.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FDDD636F18BBCE180060324C /* Spearman.atlas */; };
+		FDC547CB18DDA141004EB442 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDD632918BB69BA0060324C /* Main_iPad.storyboard */; };
+		FDC547CC18DDA141004EB442 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDD632F18BB69BA0060324C /* Images.xcassets */; };
+		FDC547CD18DDA141004EB442 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDD632618BB69BA0060324C /* Main_iPhone.storyboard */; };
+		FDC547CE18DDA141004EB442 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDDD631D18BB69BA0060324C /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23C37F01F29E49F7833DFF55 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3BBAB5EACA0E96DB794441AB /* libCIMLuaBindingCoreGraphics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingCoreGraphics.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingCoreGraphics.a"; sourceTree = "<absolute>"; };
+		795D95FD579BC8A5FEF6D45C /* libCIMLuaBindingFoundation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingFoundation.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a"; sourceTree = "<absolute>"; };
+		ADB02F1943C5DB0D38262FC1 /* libCIMLuaBindingSpriteKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingSpriteKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingSpriteKit.a"; sourceTree = "<absolute>"; };
+		D40903F2C9A046DCA3BF6573 /* libCIMLua.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLua.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLua.a"; sourceTree = "<absolute>"; };
+		D59669EA7C1F437594F1CDF3 /* libCIMLuaDebugServerIOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaDebugServerIOS.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLuaDebugServerIOS.a"; sourceTree = "<absolute>"; };
+		E69EBBD638765B6492429F21 /* libCIMLuaBindingUIKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingUIKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingUIKit.a"; sourceTree = "<absolute>"; };
+		FDC547D218DDA141004EB442 /* SpriteKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDD631418BB69BA0060324C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDDD631618BB69BA0060324C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDDD631818BB69BA0060324C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDDD631C18BB69BA0060324C /* SpriteKitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitTest-Info.plist"; sourceTree = "<group>"; };
+		FDDD631E18BB69BA0060324C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDDD632018BB69BA0060324C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDDD632218BB69BA0060324C /* SpriteKitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpriteKitTest-Prefix.pch"; sourceTree = "<group>"; };
+		FDDD632318BB69BA0060324C /* CLDVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDVAppDelegate.h; sourceTree = "<group>"; };
+		FDDD632418BB69BA0060324C /* CLDVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDVAppDelegate.m; sourceTree = "<group>"; };
+		FDDD632718BB69BA0060324C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FDDD632A18BB69BA0060324C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FDDD632C18BB69BA0060324C /* CLDVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDVViewController.h; sourceTree = "<group>"; };
+		FDDD632D18BB69BA0060324C /* CLDVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDVViewController.m; sourceTree = "<group>"; };
+		FDDD632F18BB69BA0060324C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDDD635B18BB81BD0060324C /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FDDD636F18BBCE180060324C /* Spearman.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Spearman.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC547BD18DDA141004EB442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC547C418DDA141004EB442 /* CoreGraphics.framework in Frameworks */,
+				FDC547C518DDA141004EB442 /* UIKit.framework in Frameworks */,
+				FDC547C618DDA141004EB442 /* Foundation.framework in Frameworks */,
+				FDC547C718DDA141004EB442 /* SpriteKit.framework in Frameworks */,
+				428E590E748F47CEA8B0C415 /* MobileCoreServices.framework in Frameworks */,
+				F646C4171E7542E2BD0154A1 /* libCIMLua.a in Frameworks */,
+				F720FEFA4AE14C8798C046A4 /* libCIMLuaDebugServerIOS.a in Frameworks */,
+				53ABA80A1D7511FF71849A82 /* libCIMLuaBindingCoreGraphics.a in Frameworks */,
+				3C56F8BA8020CCEEA3E915DD /* libCIMLuaBindingFoundation.a in Frameworks */,
+				D5D05D6B122A04CF5DA3C040 /* libCIMLuaBindingUIKit.a in Frameworks */,
+				5A4A4241ED44AD369F847056 /* libCIMLuaBindingSpriteKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDD630818BB69BA0060324C = {
+			isa = PBXGroup;
+			children = (
+				FDDD631A18BB69BA0060324C /* SpriteKitTest */,
+				FDDD631318BB69BA0060324C /* Frameworks */,
+				FDDD631218BB69BA0060324C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDD631218BB69BA0060324C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC547D218DDA141004EB442 /* SpriteKitTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDD631318BB69BA0060324C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD635B18BB81BD0060324C /* SpriteKit.framework */,
+				FDDD631418BB69BA0060324C /* Foundation.framework */,
+				FDDD631618BB69BA0060324C /* CoreGraphics.framework */,
+				FDDD631818BB69BA0060324C /* UIKit.framework */,
+				23C37F01F29E49F7833DFF55 /* MobileCoreServices.framework */,
+				D40903F2C9A046DCA3BF6573 /* libCIMLua.a */,
+				D59669EA7C1F437594F1CDF3 /* libCIMLuaDebugServerIOS.a */,
+				3BBAB5EACA0E96DB794441AB /* libCIMLuaBindingCoreGraphics.a */,
+				795D95FD579BC8A5FEF6D45C /* libCIMLuaBindingFoundation.a */,
+				E69EBBD638765B6492429F21 /* libCIMLuaBindingUIKit.a */,
+				ADB02F1943C5DB0D38262FC1 /* libCIMLuaBindingSpriteKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDDD631A18BB69BA0060324C /* SpriteKitTest */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD632318BB69BA0060324C /* CLDVAppDelegate.h */,
+				FDDD632418BB69BA0060324C /* CLDVAppDelegate.m */,
+				FDDD632618BB69BA0060324C /* Main_iPhone.storyboard */,
+				FDDD632918BB69BA0060324C /* Main_iPad.storyboard */,
+				FDDD632C18BB69BA0060324C /* CLDVViewController.h */,
+				FDDD632D18BB69BA0060324C /* CLDVViewController.m */,
+				FDDD632F18BB69BA0060324C /* Images.xcassets */,
+				FDDD636F18BBCE180060324C /* Spearman.atlas */,
+				FDDD631B18BB69BA0060324C /* Supporting Files */,
+			);
+			path = SpriteKitTest;
+			sourceTree = "<group>";
+		};
+		FDDD631B18BB69BA0060324C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD631C18BB69BA0060324C /* SpriteKitTest-Info.plist */,
+				FDDD631D18BB69BA0060324C /* InfoPlist.strings */,
+				FDDD632018BB69BA0060324C /* main.m */,
+				FDDD632218BB69BA0060324C /* SpriteKitTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC547B818DDA141004EB442 /* SpriteKitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC547CF18DDA141004EB442 /* Build configuration list for PBXNativeTarget "SpriteKitTest" */;
+			buildPhases = (
+				FDC547B918DDA141004EB442 /* Sources */,
+				FDC547BD18DDA141004EB442 /* Frameworks */,
+				FDC547C918DDA141004EB442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteKitTest;
+			productName = MyGame1;
+			productReference = FDC547D218DDA141004EB442 /* SpriteKitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDD630918BB69BA0060324C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CLDV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Celedev;
+			};
+			buildConfigurationList = FDDD630C18BB69BA0060324C /* Build configuration list for PBXProject "SpriteKitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDDD630818BB69BA0060324C;
+			productRefGroup = FDDD631218BB69BA0060324C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC547B818DDA141004EB442 /* SpriteKitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC547C918DDA141004EB442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC547CA18DDA141004EB442 /* Spearman.atlas in Resources */,
+				FDC547CB18DDA141004EB442 /* Main_iPad.storyboard in Resources */,
+				FDC547CC18DDA141004EB442 /* Images.xcassets in Resources */,
+				FDC547CD18DDA141004EB442 /* Main_iPhone.storyboard in Resources */,
+				FDC547CE18DDA141004EB442 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC547B918DDA141004EB442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC547BA18DDA141004EB442 /* CLDVViewController.m in Sources */,
+				FDC547BB18DDA141004EB442 /* main.m in Sources */,
+				FDC547BC18DDA141004EB442 /* CLDVAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDDD631D18BB69BA0060324C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDD631E18BB69BA0060324C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDDD632618BB69BA0060324C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDD632718BB69BA0060324C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FDDD632918BB69BA0060324C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDD632A18BB69BA0060324C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDC547D018DDA141004EB442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteKitTest/SpriteKitTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/include",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/headers",
+				);
+				INFOPLIST_FILE = "SpriteKitTest/SpriteKitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SpriteKitTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDC547D118DDA141004EB442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteKitTest/SpriteKitTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/include",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/headers",
+				);
+				INFOPLIST_FILE = "SpriteKitTest/SpriteKitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SpriteKitTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDDD634418BB69BB0060324C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDDD634518BB69BB0060324C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC547CF18DDA141004EB442 /* Build configuration list for PBXNativeTarget "SpriteKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC547D018DDA141004EB442 /* Debug */,
+				FDC547D118DDA141004EB442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDD630C18BB69BA0060324C /* Build configuration list for PBXProject "SpriteKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDD634418BB69BB0060324C /* Debug */,
+				FDDD634518BB69BB0060324C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDDD630918BB69BA0060324C /* Project object */;
+}

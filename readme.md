@@ -6,7 +6,7 @@ It includes an example of propagation of a resource update (the spaceship image)
 
 ## Configuration required
 
-A Mac with Celedev CodeFlow version 0.9.11 or later.
+A Mac with Celedev CodeFlow version 0.9.15 or later.
 
 Works on iPhone or iPad, running iOS 7 or later.
 
