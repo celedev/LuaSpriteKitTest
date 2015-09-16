@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>LibId</key>
-			<string>apple_sdk_iphoneos8.3</string>
+			<string>apple_sdk_iphoneos9.0</string>
 			<key>LibName</key>
 			<string>iOS</string>
 		</dict>
@@ -14,12 +14,17 @@
 			<key>BindingsLibSourceGroupType</key>
 			<string>SelfGeneratedBindingsLib</string>
 			<key>CustomBindingsLibBindingsSourcePath</key>
-			<string>/Volumes/Brume/Celedev CodeFlow/CodeFlow Sample Applications/SpriteKit Test/SpriteKitTest.xcodeproj</string>
+			<string>SpriteKitTest.xcodeproj</string>
+			<key>CustomBindingsLibCompilationOptions</key>
+			<array>
+				<string>-fembed-bitcode</string>
+			</array>
 			<key>CustomBindingsLibHeadersParsingOptions</key>
 			<array>
 				<string>-include</string>
 				<string>/Volumes/Brume/Celedev CodeFlow/CodeFlow Sample Applications/SpriteKit Test/SpriteKitTest/SpriteKitTest-Prefix.pch</string>
 				<string>-fobjc-arc</string>
+				<string>-fmodules</string>
 			</array>
 			<key>CustomBindingsLibHeadersSearchPaths</key>
 			<array>
@@ -27,7 +32,9 @@
 				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/headers</string>
 			</array>
 			<key>CustomBindingsLibLastGenerationDate</key>
-			<date>2015-05-20T16:51:35Z</date>
+			<date>2015-09-16T12:21:10Z</date>
+			<key>CustomBindingsLibPlatformSdkName</key>
+			<string>iphoneos9.0</string>
 			<key>CustomBindingsLibSourceFilesTree</key>
 			<data>
 			YnBsaXN0MDDUAQIDBAUGdHVYJHZlcnNpb25YJG9iamVjdHNZJGFy
@@ -75,46 +82,6 @@
 				<key>targetType</key>
 				<string>com.apple.product-type.application</string>
 			</dict>
-			<key>LibBookmark</key>
-			<data>
-			Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAA3AMAAAQAAAADAwAAAAIAAAUAAAABAQAAVXNlcnMA
-			AAAIAAAAAQEAAGplYW4tbHVjBwAAAAEBAABMaWJyYXJ5AAYAAAAB
-			AQAAQ2FjaGVzAAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
-			CAAAAAEBAABQcm9ncmFtcyQAAAABAQAAQ0MyRTRDOUQtQTIxMC00
-			RTc0LUJBRDEtMkE0Q0I3Mjc4OTJCDAAAAAEBAABFeHRlcm5hbExp
-			YnMZAAAAAQEAAFNwcml0ZUtpdFRlc3QubHVhYmluZGluZ3MAAAAk
-			AAAAAQYAABAAAAAgAAAAMAAAAEAAAABQAAAAbAAAAHwAAACoAAAA
-			vAAAAAgAAAAEAwAAfGQCAAAAAAAIAAAABAMAAMN7TgAAAAAACAAA
-			AAQDAAA4fE4AAAAAAAgAAAAEAwAAbnxOAAAAAAAIAAAABAMAAPFP
-			kAEAAAAACAAAAAQDAAD3d5ABAAAAAAgAAAAEAwAAq4uQAQAAAAAI
-			AAAABAMAAKyLkAEAAAAACAAAAAQDAACti5ABAAAAACQAAAABBgAA
-			DAEAABwBAAAsAQAAPAEAAEwBAABcAQAAbAEAAHwBAACMAQAACAAA
-			AAAEAABBuwzrfwAAABgAAAABAgAAAgAAAAAAAAAPAAAAAAAAAAAA
-			AAAAAAAACAAAAAQDAAAHAAAAAAAAAAQAAAADAwAA9wEAAAgAAAAB
-			CQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
-			AABGpwMBAAAIAAAAAAQAAEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4
-			QS03RjU5LTNDMjktOUJBOS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEA
-			AAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAAB
-			BQAAGQEAAAECAAA5MzM3NmVkYTJlMzdkMDFjODE2ZTZhNDk4NmYz
-			OGU3NGUwZTEzYTdjOzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAw
-			MDAwMDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3Jp
-			dGU7MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMTkwOGJhZDsv
-			dXNlcnMvamVhbi1sdWMvbGlicmFyeS9jYWNoZXMvY29tLmNlbGVk
-			ZXYuY29kZWZsb3cvcHJvZ3JhbXMvY2MyZTRjOWQtYTIxMC00ZTc0
-			LWJhZDEtMmE0Y2I3Mjc4OTJiL2V4dGVybmFsbGlicy9zcHJpdGVr
-			aXR0ZXN0Lmx1YWJpbmRpbmdzAAAAANgAAAD+////AQAAAAAAAAAR
-			AAAABBAAAOAAAAAAAAAABRAAAJwBAAAAAAAAEBAAANgBAAAAAAAA
-			QBAAAMgBAAAAAAAAAiAAAKQCAAAAAAAABSAAABQCAAAAAAAAECAA
-			ACQCAAAAAAAAESAAAFgCAAAAAAAAEiAAADgCAAAAAAAAEyAAAEgC
-			AAAAAAAAICAAAIQCAAAAAAAAMCAAALACAAAAAAAAAcAAAPgBAAAA
-			AAAAEcAAACAAAAAAAAAAEsAAAAgCAAAAAAAAENAAAAQAAAAAAAAA
-			gPAAALgCAAAAAAAA
-			</data>
-			<key>LibName</key>
-			<string>SpriteKitTest</string>
-			<key>LibUrl</key>
-			<string>file:///Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/CC2E4C9D-A210-4E74-BAD1-2A4CB727892B/ExternalLibs/SpriteKitTest.luabindings</string>
 		</dict>
 	</array>
 	<key>Program Display Info</key>
@@ -133,7 +100,7 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>GameScene</string>
 		<key>LuaAppWindow frame</key>
-		<string>601 443 1379 760 0 0 2560 1417 </string>
+		<string>562 551 1379 760 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -163,34 +130,11 @@
 		</dict>
 		<key>CreateGame</key>
 		<dict>
-			<key>Source File Auto Reload</key>
-			<false/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>CreateGame</string>
 			<key>SourceItemChangeTime</key>
 			<real>415040997.97592998</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>SrcEditor Selected Length</key>
-				<integer>0</integer>
-				<key>SrcEditor Selected Location</key>
-				<integer>106</integer>
-				<key>SrcEditor Visible Length</key>
-				<integer>309</integer>
-				<key>SrcEditor Visible Location</key>
-				<integer>0</integer>
-			</dict>
 		</dict>
 		<key>GameScene</key>
 		<dict>
-			<key>Source File Auto Reload</key>
-			<false/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>GameScene</string>
 			<key>SourceItemChangeTime</key>
 			<real>445856076.426153</real>
 			<key>SourceItemDisplayInfo</key>
@@ -198,11 +142,11 @@
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>662</integer>
+				<integer>1695</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1530</integer>
+				<integer>1614</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>0</integer>
+				<integer>628</integer>
 			</dict>
 		</dict>
 		<key>Spaceship</key>
@@ -237,9 +181,9 @@
 			AAAAAAgAAAAEAwAANRoBAAAAAAAYAAAAAQYAALwAAADMAAAA3AAA
 			AOwAAAD8AAAADAEAAAgAAAAABAAAQbi/i68AAAAYAAAAAQIAAAEA
 			AAAAAAAADwAAAAAAAAAAAAAAAAAAABYAAAABCQAAZmlsZTovLy9W
-			b2x1bWVzL0JydW1lLwAACAAAAAQDAAAAwB3SBQAAAAgAAAAABAAA
-			QbrqHeEAAAAkAAAAAQEAAENCMjM1RjFELTk2MjItMzBDQy1BMzA4
-			LUMzNUQ4QUQzRTdENhgAAAABAgAAAQEAAAEACADvFwAAAQAIAAAA
+			b2x1bWVzL0JydW1lLwAACAAAAAQDAAAAUKGnCwAAAAgAAAAABAAA
+			QbrqHeEAAAAkAAAAAQEAADM3NDBBMkFCLTdBMkYtM0YxNy04REND
+			LTUyNDkzNjZBRjk0RBgAAAABAgAAAQEAAAEACADvFwAAAQAIAAAA
 			AAAAAAAADgAAAAEBAAAvVm9sdW1lcy9CcnVtZQAACAAAAAEJAABm
 			aWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAAEan
 			AwEAAAgAAAAABAAAQbgi/8AAAAAkAAAAAQEAADFCQjM0QjhBLTdG
@@ -249,10 +193,10 @@
 			IAIAAAAAAAARIAAAVAIAAAAAAAASIAAANAIAAAAAAAATIAAARAIA
 			AAAAAAAgIAAAgAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAA
 			AAAEAAAAAwMAAAEAAAAcAAAAAQYAABQDAAAgAwAALAMAACADAAAg
-			AwAAIAMAACADAADqAAAAAQIAAGY5YTVkYzU1ZDE2MGNjMGEwOTYw
-			YTBmNWU4M2IwMmRmOTIxNTE0NjY7MDAwMDAwMDA7MDAwMDAwMDA7
+			AwAAIAMAACADAADqAAAAAQIAAGI4YmQ1NDM0OWFkODhmN2Y1NmQ1
+			OWUxNmZlMTNmNWFjNjEzYjI0MzA7MDAwMDAwMDA7MDAwMDAwMDA7
 			MDAwMDAwMDAwMDAwMDAyMDtjb20uYXBwbGUuYXBwLXNhbmRib3gu
-			cmVhZC13cml0ZTswMDAwMDAwMTswMTAwMDAwZTswMDAwMDAwMDAw
+			cmVhZC13cml0ZTswMDAwMDAwMTswMTAwMDAwZDswMDAwMDAwMDAw
 			MDExYTM1Oy92b2x1bWVzL2JydW1lL2NlbGVkZXYgY29kZWZsb3cv
 			Y29kZWZsb3cgc2FtcGxlIGFwcGxpY2F0aW9ucy9zcHJpdGVraXQg
 			dGVzdC9zcGFjZXNoaXAucG5nAAAAtAAAAP7///8BAAAArAIAAA4A
@@ -267,10 +211,6 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>Spearman</string>
 			<key>SourceItemChangeTime</key>
 			<real>431625495.74865699</real>
 			<key>SourceItemDisplayInfo</key>
